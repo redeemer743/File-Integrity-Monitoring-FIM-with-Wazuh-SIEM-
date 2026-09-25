@@ -1,8 +1,11 @@
-# LAB REPORT: File Integrity Monitoring (FIM) with Wazuh SIEM
+# File Integrity Monitoring (FIM) with Wazuh SIEM
 
 **Date:** September 25, 2026
+
 **Target Environment:** Windows 11 (Windows_11, Agent ID: 002)
+
 **SIEM Platform:** Wazuh Server (v4.x) running on Ubuntu Linux
+
 **Virtualization Platform:** VMware Workstation
 
 ---
