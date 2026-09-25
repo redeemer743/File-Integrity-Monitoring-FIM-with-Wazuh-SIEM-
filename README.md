@@ -66,7 +66,7 @@ The test scenario simulated an unauthorized user or process attempting to modify
 
    - Observed File: `C:\WazuhTest\lab_fim_test.txt`
 
-   ![PowerShell session creating the monitored folder, creating lab_fim_test.txt, and appending unauthorized text to trigger a file-modified event](screenshots/Screenshot_2026-09-25_171815.png)
+   ![PowerShell session creating the monitored folder, creating lab_fim_test.txt, and appending unauthorized text to trigger a file-modified event](screenshots/Screenshot 2026-09-25_171815.png)
 
 2. **Content Modification (Simulating Tampering):**
 
