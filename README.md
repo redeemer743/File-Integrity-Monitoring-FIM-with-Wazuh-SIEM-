@@ -14,7 +14,7 @@
 
 File Integrity Monitoring (FIM) is a critical security control that tracks, detects, and alerts on unauthorized modification, creation, or deletion of key files and directories across system endpoints. This lab demonstrates the end-to-end configuration and operational validation of Wazuh's FIM component (Syscheck) on a Windows 11 endpoint (Windows_11, Agent 002).
 
-The test successfully monitored the target directory `C:\WazuhTest`. Through controlled file operations — including creation, content modification, and deletion executed via PowerShell — Wazuh generated real-time alerts on the SIEM dashboard, confirming proper rule execution (Rule ID 550, Level 7).
+The test successfully monitored the target directory `C:\WazuhTest`. Through controlled file operations including creation, content modification, and deletion executed via PowerShell — Wazuh generated real-time alerts on the SIEM dashboard, confirming proper rule execution (Rule ID 550, Level 7).
 
 ---
 
