@@ -66,7 +66,7 @@ The test scenario simulated an unauthorized user or process attempting to modify
 
    - Observed File: `C:\WazuhTest\lab_fim_test.txt`
 
-   ![PowerShell session creating the monitored folder, creating lab_fim_test.txt, and appending unauthorized text to trigger a file-modified event](screenshots/Screenshot_2026-09-25_171815.png)
+   ![PowerShell session creating the monitored folder, creating lab_fim_test.txt, and appending unauthorized text to trigger a file-modified event](screenshots/1.png)
 
 2. **Content Modification (Simulating Tampering):**
 
@@ -90,17 +90,17 @@ The test scenario simulated an unauthorized user or process attempting to modify
 
 The Wazuh Syscheck engine successfully captured all file modification events in real time.
 
-![Wazuh dashboard Overview page with the left-hand navigation menu expanded, showing Endpoint Security, Threat Intelligence, Security Operations, and Cloud Security sections, plus Last 24 Hours Alerts severity counts](screenshots/Screenshot_2026-09-25_174922.png)
+![Wazuh dashboard Overview page with the left-hand navigation menu expanded, showing Endpoint Security, Threat Intelligence, Security Operations, and Cloud Security sections, plus Last 24 Hours Alerts severity counts](screenshots/2.png)
 
-![File Integrity Monitoring dashboard for Windows_11 (002) — Most active users, Actions, and Events donut/line charts, with Files added / Files modified / Files deleted panels](screenshots/Screenshot_2026-09-25_174954.png)
+![File Integrity Monitoring dashboard for Windows_11 (002) — Most active users, Actions, and Events donut/line charts, with Files added / Files modified / Files deleted panels](screenshots/3.png)
 
-![File Integrity Monitoring dashboard, scrolled view — Files modified panel showing a full donut chart for c:\wazuhtest\lab_fim_test.txt, with No results found for Files added and Files deleted](screenshots/Screenshot_2026-09-25_175015.png)
+![File Integrity Monitoring dashboard, scrolled view — Files modified panel showing a full donut chart for c:\wazuhtest\lab_fim_test.txt, with No results found for Files added and Files deleted](screenshots/3.png)
 
-![File Integrity Monitoring Inventory tab — Files (11) list showing c:\wazuhtest\lab_fim_test.txt alongside baseline Windows system files with Last modified, User, User ID, and Size columns](screenshots/Screenshot_2026-09-25_175043.png)
+![File Integrity Monitoring Inventory tab — Files (11) list showing c:\wazuhtest\lab_fim_test.txt alongside baseline Windows system files with Last modified, User, User ID, and Size columns](screenshots/4.png)
 
-![File Integrity Monitoring Events tab — histogram showing 1 hit, with the event row for c:\wazuhtest\lab_fim_test.txt, syscheck.event: modified, rule.description: Integrity checksum changed, rule.level 7, rule.id 550](screenshots/Screenshot_2026-09-25_175109.png)
+![File Integrity Monitoring Events tab — histogram showing 1 hit, with the event row for c:\wazuhtest\lab_fim_test.txt, syscheck.event: modified, rule.description: Integrity checksum changed, rule.level 7, rule.id 550](screenshots/5.png)
 
-![File Integrity Monitoring Events tab in full-screen view — single hit table showing timestamp, agent.name (Windows_11), syscheck.path, syscheck.event (modified), rule.description, rule.level (7), and rule.id (550)](screenshots/Screenshot_2026-09-25_175124.png)
+![File Integrity Monitoring Events tab in full-screen view — single hit table showing timestamp, agent.name (Windows_11), syscheck.path, syscheck.event (modified), rule.description, rule.level (7), and rule.id (550)](screenshots/6.png)
 
 ### Summary of Alert Events
 
@@ -114,7 +114,7 @@ The Wazuh Syscheck engine successfully captured all file modification events in 
 - **Rule ID 550:** Indicates that Wazuh detected a change in file attribute or cryptographic checksum (MD5/SHA1/SHA256).
 - **Severity Classification:** Rule level 7 reflects a medium-high security priority suitable for immediate security analyst review.
 
-![Windows File Explorer showing the C:\WazuhTest folder containing lab_fim_test as a Text Document, confirming the file's final state on the endpoint](screenshots/Screenshot_2026-09-25_175151.png)
+![Windows File Explorer showing the C:\WazuhTest folder containing lab_fim_test as a Text Document, confirming the file's final state on the endpoint](screenshots/7.png)
 
 ---
 
