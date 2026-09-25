@@ -20,7 +20,7 @@ The test successfully monitored the target directory `C:\WazuhTest`. Through con
 
 ## 2. Laboratory Environment Setup
 
-The test environment consists of two virtual machines operating within VMware Workstation:
+The test environment consists of one host machine and one virtual machines operating within VMware Workstation:
 
 - **Wazuh Manager / Dashboard Node:**
   - OS: Linux (Ubuntu/Debian-based)
